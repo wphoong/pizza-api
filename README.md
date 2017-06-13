@@ -2,11 +2,14 @@
 
 A resource for making the best pizza!
 
-* Crust
+To use this API, check out
 
-* Sauce
+* /crusts
 
-* Meat
+* /sauces
 
-* Vegetables
+* /cheeses
 
+* /meats
+
+* /vegetables
