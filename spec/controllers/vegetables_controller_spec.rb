@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe CheesesController, type: :controller do
-  context '/cheeses' do
-    it 'should list cheeses in database' do
-      cheese = FactoryGirl.create(:cheese)
+RSpec.describe VegetablesController, type: :controller do
+  context '/vegetables' do
+    it 'should list vegetables in database' do
+      vegetable = FactoryGirl.create(:vegetable)
       get :index
       expect(response).to have_http_status(:success)
       response_value = ActiveSupport::JSON.decode(@response.body)
