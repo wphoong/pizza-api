@@ -13,3 +13,5 @@ To use this API, check out
 * /meats
 
 * /vegetables
+
+Pizza API can be found at https://pizza-wilson-p.herokuapp.com/
