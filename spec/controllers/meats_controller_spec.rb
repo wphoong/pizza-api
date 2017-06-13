@@ -6,6 +6,7 @@ RSpec.describe MeatsController, type: :controller do
       meat = FactoryGirl.create(:meat)
       get :index
       expect(response).to have_http_status(:success)
+      expect(meat.count).to eq 1
       response_value = ActiveSupport::JSON.decode(@response.body)
       expect(response_value.count).to eq 1
     end

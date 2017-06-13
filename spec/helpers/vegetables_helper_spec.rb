@@ -11,5 +11,4 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe VegetablesHelper, type: :helper do
-  
 end

@@ -10,39 +10,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170613185443) do
-
+ActiveRecord::Schema.define(version: 20_170_613_185_443) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension 'plpgsql'
 
-  create_table "cheeses", force: :cascade do |t|
-    t.string "kind"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'cheeses', force: :cascade do |t|
+    t.string 'kind'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "crusts", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "kind"
+  create_table 'crusts', force: :cascade do |t|
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.string 'kind'
   end
 
-  create_table "meats", force: :cascade do |t|
-    t.string "kind"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'meats', force: :cascade do |t|
+    t.string 'kind'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "sauces", force: :cascade do |t|
-    t.string "kind"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'sauces', force: :cascade do |t|
+    t.string 'kind'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "vegetables", force: :cascade do |t|
-    t.string "kind"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'vegetables', force: :cascade do |t|
+    t.string 'kind'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
-
 end
