@@ -4,4 +4,7 @@ Rails.application.routes.draw do
     resources :all, only: [:index]
     resources :crusts, only: [:index]
     resources :sauces, only: [:index]
+    resources :cheeses, only: [:index]
+    resources :meats, only: [:index]
+    resources :vegetables, only: [:index]
 end
