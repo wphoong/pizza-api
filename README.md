@@ -1,24 +1,12 @@
-# README
+# Pizza API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A resource for making the best pizza!
 
-Things you may want to cover:
+* Crust
 
-* Ruby version
+* Sauce
 
-* System dependencies
+* Meat
 
-* Configuration
+* Vegetables
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
